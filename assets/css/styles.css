@@ -166,3 +166,8 @@
   font-size:2rem;
   font-family:inherit;
 }
+
+/* Join Facebook */
+#join-facebook {
+  background-color: var(--third-color);
+}
