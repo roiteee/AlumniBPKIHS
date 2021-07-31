@@ -3,6 +3,7 @@
   --sub-color:#6c757d;
   --third-color:#4196b4;
   --white-color:#fff;
+  --light-gray-color: #f2f2f2;
 }
 
 
@@ -170,4 +171,20 @@
 /* Join Facebook */
 #join-facebook {
   background-color: var(--third-color);
+}
+
+
+/* Cards */
+.my-card-title {
+  font-size: 1rem;
+  font-weight:bold;
+  background-color: var(--light-gray-color);
+  padding: 10px;
+  margin:0;
+}
+
+.square-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
